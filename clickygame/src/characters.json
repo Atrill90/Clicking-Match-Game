@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "Yasuo",
+      "image": "http://media.comicbook.com/2017/05/yasuo-998944.jpg",
+      "occupation": "Fry Cook",
+      "location": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 2,
+      "name": "Zed",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_1.jpg",
+      "occupation": "Restaurant Owner",
+      "location": "A Giant Anchor"
+    },
+    {
+      "id": 3,
+      "name": "Teemo",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+      "occupation": "Cashier",
+      "location": "An Easter Island Head"
+    },
+    {
+      "id": 4,
+      "name": "Varus",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_2.jpg",
+      "occupation": "Boy Genius",
+      "location": "A Secret Laboratory"
+    },
+    {
+      "id": 5,
+      "name": "Ivern",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
+      "occupation": "A Cowardly Dog",
+      "location": "Nowhere, Kansas"
+    },
+    {
+      "id": 6,
+      "name": "Braum",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_1.jpg",
+      "occupation": "Student",
+      "location": "Bluffington"
+    },
+    {
+      "id": 7,
+      "name": "Ezreal",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_3.jpg",
+      "occupation": "Looney Toon",
+      "location": "A Rabbit Burrow"
+    },
+    {
+      "id": 8,
+      "name": "Heimer",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_2.jpg",
+      "occupation": "Ladies Man",
+      "location": "Aron City"
+    },
+    {
+      "id": 9,
+      "name": "Ryze",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_1.jpg",
+      "occupation": "Adventurer",
+      "location": "California"
+    },
+    {
+      "id": 10,
+      "name": "Twisted Fate",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg",
+      "occupation": "Cashier",
+      "location": "O-Town, California"
+    },
+    {
+      "id": 11,
+      "name": "Blitz",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_5.jpg",
+      "occupation": "Superhero",
+      "location": "Earth"
+    },
+    {
+      "id": 12,
+      "name": "Leona",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_1.jpg",
+      "occupation": "Ahhhh! A Real Monster!",
+      "location": "Under a City Dump"
+    }
+  ]
+  
