@@ -14,11 +14,19 @@ class App extends Component {
     score: 0
   };
  incrementScore = () => {
+   console.log("Score:,",this.state.score);
     // We always use the setState method to update a component's state
     this.setState({ score: this.state.score + 1 });
   };
+  endGame =() => {
+    console.log("game over");
+  }
+  
+
   click = () => {
     console.log("a click happened");
+    this.incrementScore();
+    shuffle(this.state.characters);
   }
   
 
@@ -33,6 +41,9 @@ class App extends Component {
           <CharacterCard
             image={character.image}
             key = {character.name}
+            click = {this.click}
+            endGame = {this.endGame}
+            incrementScore = {this.incrementScore}
           />
         ))}
         </Wrapper> 

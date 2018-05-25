@@ -5,7 +5,9 @@
     margin: 1rem;
     position: relative;
     width: 325px;
-    /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
+    -webkit-box-shadow: -9px -4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px -4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -9px -4px 5px 0px rgba(0,0,0,0.75);
     text-align: left;
   }
   
