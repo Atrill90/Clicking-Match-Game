@@ -10,7 +10,7 @@ const Navbar = props => (
         <p className="nav-link text-align">Score {props.score}<span className="sr-only">(current)</span></p>
       </li>
       <li className="nav-item active">
-        <p className="nav-link" >Correct Guesses</p>
+        <p className="nav-link" >Top Score</p>
       </li>
       </ul>
     </nav>
