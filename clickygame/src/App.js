@@ -11,7 +11,7 @@ class App extends Component {
   // Setting this.state.characters to the friends json array
   state = {
     characters,
-    score: 0
+    score: 1
   };
  incrementScore = () => {
    console.log("Score:,",this.state.score);
@@ -34,9 +34,11 @@ class App extends Component {
     return (
       
       <div>
-        <Navbar/>
+        <Navbar
+        score = {this.state.score - 1}
+        />
         <Wrapper>
-        <Title>League Character List</Title>
+        <Title>Don't click me twice</Title>
         {this.state.characters.map(character => (
           <CharacterCard
             image={character.image}
@@ -44,6 +46,7 @@ class App extends Component {
             click = {this.click}
             endGame = {this.endGame}
             incrementScore = {this.incrementScore}
+            characters = {this.state.characters}
           />
         ))}
         </Wrapper> 
