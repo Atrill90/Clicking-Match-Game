@@ -27,12 +27,14 @@ class App extends Component {
      tempUserPicks.push(pick);
      this.setState({
        userPicks: tempUserPicks,
-       score:this.state.score + 1
+       score:this.state.score + 1,
+       feedback: "Correct!"
      });
    } else {
      this.setState({
        userPicks: [],
        score: 0,
+       feedback:"Game Over",
        highScore: 
         this.state.highScore >= this.state.score
         ? this.state.highScore
@@ -43,42 +45,10 @@ class App extends Component {
  };
 
 twinCheck = (arr, item) => {
-  //  Return true if there is a dup
+  //  Return true if there is a twin
   return arr.indexOf(item) !== -1 ? true : false;
 };
 
- 
- 
- 
- 
- 
- 
-  // incrementScore = () => {
-  //  console.log("Score:,",this.state.score);
-  //   // We always use the setState method to update a component's state
-  //   this.setState({ score: this.state.score + 1 ,feedback: "Correct!"});
-  // };
-  // endGame =() => {
-  //   if (this.state.score > this.state.highScore) {
-  //     this.setState({ 
-  //                     highScore: this.state.score
-  //                  });
-  //   }
-  //   this.setState({
-  //                     feedback: "Game Over",
-  //                     currentGame: this.state.currentGame + 1,
-  //                     score: 1
-  //                 })
-  //   this.forceUpdate();
-  // }
-  
-
-  // click = () => {
-  //   console.log("a click happened");
-  //   this.incrementScore();
-    
-  // }
-  
 
   render() {
     return (
