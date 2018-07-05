@@ -19,10 +19,11 @@ class App extends Component {
   };
  
  userPick = pick => {
+   //stores the user picks into a temp arr 
    const tempUserPicks = [...this.state.userPicks]
-
+  // checks to see if a user has picked a card twice
    const isTwin = this.twinCheck(tempUserPicks, pick);
-
+  //if there isn't a twin push the choice into the temp arr, increase the score and give the user positive feedback
    if(!isTwin) {
      tempUserPicks.push(pick);
      this.setState({
@@ -32,9 +33,10 @@ class App extends Component {
      });
    } else {
      this.setState({
+       // reset the userPicks arr, the score, and give the us
        userPicks: [],
        score: 0,
-       feedback:"Game Over",
+       feedback:"Game Over, Click Any Card to Play Again",
        highScore: 
         this.state.highScore >= this.state.score
         ? this.state.highScore
@@ -66,9 +68,6 @@ twinCheck = (arr, item) => {
             id={character.id}
             image={character.image}
             key = {character.name}
-            // click = {this.click}
-            // endGame = {this.endGame}
-            // incrementScore = {this.incrementScore}
             name = {character.name}
             userPick = {this.userPick}
             
