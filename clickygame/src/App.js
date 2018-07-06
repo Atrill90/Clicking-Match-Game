@@ -43,6 +43,7 @@ class App extends Component {
         : this.state.score
      })
    }
+   //shuffle from npm package
    shuffle(this.state.characters);
  };
 
