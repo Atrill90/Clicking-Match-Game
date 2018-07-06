@@ -4,7 +4,7 @@ A quick memory test game to see if you can click each character only once.
 
 ## Getting Started
 
-The user will be prompted with 12 images of champions from the online game League of Legends. Click on any image to start! The game ends when you click an image you've already selected.
+The user will be prompted with 12 images of champions from the online game League of Legends. Click on any image to start! The game ends when you score 12 points or click an image you've already selected.
 
 ## Built With
 
