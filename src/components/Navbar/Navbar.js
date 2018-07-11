@@ -8,17 +8,17 @@ const Navbar = props => (
   <a className="navbar-brand" >
   <img id="leagueLogo"src={logo}/>
   </a>
-  <h4> Memory Test! </h4>
+  <h4 id = "appTitle"> Memory Test! </h4>
   <ul className = "navbar-nav scoreSpot">
   <li className ="nav-item active guessFeedback">
-      <p className = "nav-link text-align"> {props.feedback} </p>
+      <p className = "nav-link feedbackText"> {props.feedback} </p>
       </li> 
   </ul>
-    <ul className="navbar-nav ml-auto">
+    <ul className="navbar-nav scoreArea">
       <li className="nav-item active">
-        <p className="nav-link">Score {props.score}<span className="sr-only">(current)</span></p>
+        <p className="nav-link userScore">Score {props.score}<span className="sr-only">(current)</span></p>
       </li>
-      <li className="nav-item active">
+      <li className="nav-item active highScore">
         <p className="nav-link" >High Score {props.highScore}</p>
       </li>
       </ul>

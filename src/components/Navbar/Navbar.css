@@ -11,5 +11,44 @@ p,h4{
     color: goldenrod;
 }
 .scoreSpot{
-margin-left: 30%;
+margin-left: 20%;
+}
+.scoreArea{
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .scoreSpot{
+        margin-left: 20%;
+        }
+}
+@media only screen and (max-width: 991px) {
+    .feedbackText{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .feedbackText{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+.scoreArea{
+    margin-right: 35% !important;
+}
+#appTitle{
+    margin-left: 5% !important;
+}
+.feedbackText{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 320px) {
+    #appTitle{
+        margin-right: 50px !important;
+}
 }
